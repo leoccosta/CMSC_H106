@@ -1,8 +1,6 @@
 ## CS 106 Lab 3 - Linked Lists
 
-Name: Leonardo Costa
-
-Number of Late Days Using for this lab: 0
+Name: Leo T. Costa
 
 ---
 
@@ -24,7 +22,7 @@ The total number of babies per name is store in each Node. The total number of b
 Every time I add a new Node to the list it is inserted alphabetically.
 
 5. How is total rank computed?
-It isn't...
+It isn't.
 
 ---
 

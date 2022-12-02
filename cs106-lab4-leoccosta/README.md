@@ -1,14 +1,6 @@
 ## CS 106 Lab 4 - Stacks and Queues
 
-Name: Leonardo Costa
-
-Number of Late Days Using for this lab: 0
-
----
-
-### Analysis Questions
-
-<add answers here>
+Name: Leo T. Costa
 
 ---
 

@@ -1,6 +1,6 @@
 ## CS 106 Lab 5 - Binary Trees
 
-Name: Leonardo Costa
+Name: Leo T. Costa
 
 Number of Late Days Using for this lab: 0
 

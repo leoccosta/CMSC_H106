@@ -1,8 +1,6 @@
 ## CS 106 Lab 6 - Heaps
 
-Name: Leonardo Costa
-
-Number of Late Days Using for this lab: 0
+Name: Leo T. Costa
 
 ---
 
