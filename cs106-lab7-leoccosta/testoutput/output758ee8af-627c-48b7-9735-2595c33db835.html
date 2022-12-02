@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>runtimes</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id='target' ></div>
+        <script>
+        var target_target = document.getElementById('target');
+        var layout = {
+    title: 'runtimes',
+    height: 600,
+    width: 800,
+    showlegend: true,
+    xaxis: {
+    title: 'rows deduplicated',
+    },
+
+    yaxis: {
+    title: 'runtime',
+    },
+
+};
+
+var trace0 =
+{
+x: ["0.0","10000.0","20000.0","30000.0","40000.0","50000.0","60000.0","70000.0","80000.0","90000.0"],
+y: ["0.038","0.035","0.025","0.022","0.057","0.029","0.08","0.04","0.049","0.049"],
+showlegend: true,
+mode: 'lines',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'hash',
+};
+var trace1 =
+{
+x: ["0.0","10000.0","20000.0","30000.0","40000.0","50000.0","60000.0","70000.0","80000.0","90000.0"],
+y: ["0.006","0.02","0.023","0.022","0.028","0.03","0.07","0.046","0.041","0.045"],
+showlegend: true,
+mode: 'lines',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'quicksort',
+};
+
+        var data = [ trace0, trace1];
+Plotly.newPlot(target_target, data, layout);            </script>
+
+</body>
+</html>
